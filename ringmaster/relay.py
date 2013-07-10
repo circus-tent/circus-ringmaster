@@ -4,8 +4,7 @@ from collections import defaultdict
 from zmq.eventloop import ioloop
 from tornado import gen
 
-# from circus.commands import get_commands
-from circus.tornado.client import AsyncClient
+from circus.async.client import AsyncClient
 from circus.stats.asyncclient import AsyncStatsConsumer
 from circus.util import DEFAULT_ENDPOINT_DEALER
 
