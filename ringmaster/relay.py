@@ -8,8 +8,6 @@ from circus.async.client import AsyncClient
 from circus.stats.asyncclient import AsyncStatsConsumer
 from circus.util import DEFAULT_ENDPOINT_DEALER
 
-                                                                       # TAKE THAT, PEP8.
-
 
 class Relay(object):
     """Strategies are defined per watcher.
